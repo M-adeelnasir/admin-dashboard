@@ -1,5 +1,16 @@
 import React from 'react'
 import './sidebar.scss'
+import DashboardIcon from '@mui/icons-material/Dashboard';
+import PersonOutlineOutlinedIcon from '@mui/icons-material/PersonOutlineOutlined';
+import StoreMallDirectoryOutlinedIcon from '@mui/icons-material/StoreMallDirectoryOutlined';
+import PaymentOutlinedIcon from '@mui/icons-material/PaymentOutlined';
+import LocalShippingOutlinedIcon from '@mui/icons-material/LocalShippingOutlined';
+import InsertChartOutlinedTwoToneIcon from '@mui/icons-material/InsertChartOutlinedTwoTone';
+import NotificationsNoneOutlinedIcon from '@mui/icons-material/NotificationsNoneOutlined';
+import SettingsOutlinedIcon from '@mui/icons-material/SettingsOutlined';
+import PsychologyOutlinedIcon from '@mui/icons-material/PsychologyOutlined';
+import DirectionsRunOutlinedIcon from '@mui/icons-material/DirectionsRunOutlined';
+import LogoutOutlinedIcon from '@mui/icons-material/LogoutOutlined';
 
 const Sidebar = () => {
     return (
@@ -12,51 +23,51 @@ const Sidebar = () => {
                 <ul>
                     <p className="title">MAIN</p>
                     <li >
-                        <span className='icon'>Icone</span>
+                        <DashboardIcon className='icon' />
                         <span>Dashboard</span>
                     </li>
                     <p className="title">LISTS</p>
                     <li >
-                        <span className='icon'>Icone</span>
+                        <PersonOutlineOutlinedIcon className='icon' />
                         <span>Users</span>
                     </li>
                     <li >
-                        <span className='icon'>Icone</span>
+                        <StoreMallDirectoryOutlinedIcon className='icon' />
                         <span>Products</span>
                     </li>
                     <li >
-                        <span className='icon'>Icone</span>
+                        <PaymentOutlinedIcon className='icon' />
                         <span>Orders</span>
                     </li>
                     <p className="title">USEFULL</p>
                     <li >
-                        <span className='icon'>Icone</span>
+                        <LocalShippingOutlinedIcon className='icon' />
                         <span>Delivery</span>
                     </li>
                     <li >
-                        <span className='icon'>Icone</span>
+                        <InsertChartOutlinedTwoToneIcon className='icon' />
                         <span>Stats</span>
                     </li>
                     <li >
-                        <span className='icon'>Icone</span>
+                        <NotificationsNoneOutlinedIcon className='icon' />
                         <span>Notifications</span>
                     </li>
                     <p className="title">SERVICES</p>
                     <li >
-                        <span className='icon'>Icone</span>
+                        <DirectionsRunOutlinedIcon className='icon' />
                         <span>System Health</span>
                     </li>
                     <li >
-                        <span className='icon'>Icone</span>
+                        <SettingsOutlinedIcon className='icon' />
                         <span>Setting</span>
                     </li>
                     <p className="title">USER</p>
                     <li >
-                        <span className='icon'>Icone</span>
+                        <PsychologyOutlinedIcon className='icon' />
                         <span>Profile</span>
                     </li>
                     <li >
-                        <span className='icon'>Icone</span>
+                        <LogoutOutlinedIcon className='icon' />
                         <span>Logout</span>
                     </li>
                 </ul>
