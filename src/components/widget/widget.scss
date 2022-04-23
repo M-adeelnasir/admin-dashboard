@@ -19,6 +19,10 @@
       font-weight: 600;
       color: gray;
     }
+
+    .userlink {
+      cursor: pointer;
+    }
   }
   .right {
     display: flex;
@@ -37,8 +41,9 @@
     }
     .icon {
       align-self: flex-end;
-      background-color: rgb(207, 172, 241);
-      border-radius: 5px;
+      border-radius: 6px;
+      display: flex;
+      align-items: center;
     }
   }
 }
