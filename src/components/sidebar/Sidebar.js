@@ -70,6 +70,10 @@ const Sidebar = () => {
                         <LogoutOutlinedIcon className='icon' />
                         <span>Logout</span>
                     </li>
+                    <li >
+                        <LogoutOutlinedIcon className='icon' />
+                        <span>Logout</span>
+                    </li>
                 </ul>
             </div>
 

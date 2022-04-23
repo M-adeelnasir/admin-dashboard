@@ -37,7 +37,11 @@ const Navbar = () => {
                 </div>
                 <div className="item">
                     <FormatListBulletedOutlinedIcon className='icon' />
-
+                </div>
+                <div className="item">
+                    <div className="avatar">
+                        <img src="https://images.unsplash.com/photo-1474176857210-7287d38d27c6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="" />
+                    </div>
                 </div>
             </div>
         </div>

@@ -23,7 +23,7 @@
 
   .right {
     display: flex;
-    margin-right: 20px;
+    margin-right: 15px;
 
     .item {
       padding: 7px;
@@ -48,6 +48,21 @@
         position: absolute;
         top: 0;
         right: 3px;
+      }
+    }
+    .avatar {
+      width: 30px;
+      height: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      img {
+        display: flex;
+        align-self: center;
+        align-items: center;
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
       }
     }
   }

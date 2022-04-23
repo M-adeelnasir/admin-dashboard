@@ -3,5 +3,11 @@
 
   .homeContainer {
     flex: 5;
+
+    .widgets {
+      display: flex;
+      gap: 20px;
+      padding: 10px;
+    }
   }
 }
