@@ -16,5 +16,15 @@
       display: flex;
       padding: 5px 20px;
     }
+    .listContianers {
+      padding: 20px;
+
+      .listTitle {
+        color: grey;
+        font-weight: bold;
+        font-size: 20px;
+        padding: 4px;
+      }
+    }
   }
 }

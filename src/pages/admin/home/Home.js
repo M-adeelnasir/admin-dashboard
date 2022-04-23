@@ -4,6 +4,7 @@ import Sidebar from '../../../components/sidebar/Sidebar'
 import Widget from '../../../components/widget/Widget'
 import Charts from '../../../components/charts/Charts'
 import Featured from '../../../components/featured/Featured'
+import ListTable from '../../../components/table/Table'
 import './home.scss'
 const Home = () => {
     return (
@@ -21,6 +22,10 @@ const Home = () => {
                 <div className="charts">
                     <Featured />
                     <Charts />
+                </div>
+                <div className="listContianers">
+                    <div className="listTitle">Latest Transactions</div>
+                    <ListTable />
                 </div>
             </div>
         </div>
