@@ -5,9 +5,10 @@ import List from './pages/admin/list/List'
 import SinglePage from './pages/admin/single/SinglePage'
 import { Route, BrowserRouter, Routes } from 'react-router-dom'
 import New from './pages/admin/new/New'
-
+import './dark/dark.scss'
 
 const App = () => {
+
   return (
     <div className="app">
       <BrowserRouter>

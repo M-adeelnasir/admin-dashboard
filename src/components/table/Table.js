@@ -79,7 +79,7 @@ const ListTable = () => {
                             key={user._id}
                             sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
                         >
-                            <TableCell component="th" scope="user">
+                            <TableCell component="th" scope="user" className='tableCell'>
                                 {user._id}
                             </TableCell>
                             <TableCell className='tableCell' >

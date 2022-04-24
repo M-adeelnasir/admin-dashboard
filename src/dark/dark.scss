@@ -1,0 +1,31 @@
+.dark {
+  background-color: #222;
+  color: rgb(156, 156, 156);
+  .table {
+    background-color: #111;
+    .tableCell {
+      color: rgb(156, 156, 156);
+    }
+  }
+  .nav {
+    border-bottom: 0.5px solid #333;
+
+    .left {
+      border: 1px solid rgb(156, 156, 156);
+      input {
+        color: gainsboro;
+      }
+    }
+  }
+
+  .sidebar {
+    background-color: #222;
+    border-right: 0.5px solid #333;
+  }
+  .usertable {
+    .dt {
+      color: rgb(172, 162, 162);
+      border: none;
+    }
+  }
+}

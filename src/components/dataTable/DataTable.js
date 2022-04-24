@@ -69,8 +69,9 @@ const DataTable = () => {
 
     return (
         <>
-            <div style={{ height: 600, width: '100%' }} className="table">
+            <div style={{ height: 600, width: '100%' }} className="usertable">
                 <DataGrid
+                    className='dt'
                     rows={rows}
                     columns={columns}
                     pageSize={9}

@@ -25,12 +25,12 @@ const Sidebar = () => {
                     <p className="title">MAIN</p>
                     <li >
                         <DashboardIcon className='icon' />
-                        <span>Dashboard</span>
+                        <Link to='/' className='un'>Dashboard</Link>
                     </li>
                     <p className="title">LISTS</p>
                     <li >
                         <PersonOutlineOutlinedIcon className='icon' />
-                        <span>Users</span>
+                        <Link to='/users' className='un'>Users</Link>
                     </li>
                     <li >
                         <StoreMallDirectoryOutlinedIcon className='icon' />
@@ -69,7 +69,7 @@ const Sidebar = () => {
                     </li>
                     <li >
                         <AccountBoxOutlinedIcon className='icon' />
-                        <span>User</span>
+                        <Link to='/new' className="un">User</Link>
                     </li>
                     <li >
                         <LogoutOutlinedIcon className='icon' />

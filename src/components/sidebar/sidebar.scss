@@ -51,11 +51,13 @@
           font-size: 18px;
           color: #7451f8;
         }
-        span {
+        span,
+        .un {
           font-size: 13px;
           font-weight: 600;
           margin-left: 10px;
           color: grey;
+          text-decoration: none;
         }
       }
     }
