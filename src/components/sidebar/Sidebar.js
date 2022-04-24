@@ -1,5 +1,6 @@
 import React from 'react'
 import './sidebar.scss'
+import { Link } from 'react-router-dom'
 import DashboardIcon from '@mui/icons-material/Dashboard';
 import PersonOutlineOutlinedIcon from '@mui/icons-material/PersonOutlineOutlined';
 import StoreMallDirectoryOutlinedIcon from '@mui/icons-material/StoreMallDirectoryOutlined';
@@ -11,7 +12,7 @@ import SettingsOutlinedIcon from '@mui/icons-material/SettingsOutlined';
 import PsychologyOutlinedIcon from '@mui/icons-material/PsychologyOutlined';
 import DirectionsRunOutlinedIcon from '@mui/icons-material/DirectionsRunOutlined';
 import LogoutOutlinedIcon from '@mui/icons-material/LogoutOutlined';
-
+import AccountBoxOutlinedIcon from '@mui/icons-material/AccountBoxOutlined';
 const Sidebar = () => {
     return (
         <div className="sidebar">
@@ -67,8 +68,8 @@ const Sidebar = () => {
                         <span>Profile</span>
                     </li>
                     <li >
-                        <LogoutOutlinedIcon className='icon' />
-                        <span>Logout</span>
+                        <AccountBoxOutlinedIcon className='icon' />
+                        <span>User</span>
                     </li>
                     <li >
                         <LogoutOutlinedIcon className='icon' />
