@@ -1,3 +1,23 @@
 .table {
-  margin: 20px;
+  .btn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .btn-del {
+    outline: none;
+    padding: 6px;
+    border-radius: 4px;
+    color: red;
+    border: none;
+    cursor: pointer;
+  }
+  .btn-view {
+    outline: none;
+    padding: 6px;
+    border-radius: 4px;
+    color: green;
+    border: none;
+    cursor: pointer;
+  }
 }

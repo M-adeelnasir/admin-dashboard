@@ -1,9 +1,6 @@
 import React from 'react'
 import { DataGrid, GridColDef, GridValueGetterParams } from '@mui/x-data-grid';
-
-
-
-
+import './table.scss'
 const DataTable = () => {
 
 
