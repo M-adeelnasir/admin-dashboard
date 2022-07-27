@@ -10,19 +10,15 @@ import './dark/dark.scss'
 const App = () => {
 
   return (
-    <div className="app">
+    <div className="app ">
       <BrowserRouter>
-
         <Routes>
-
           <Route path='/' element={<Home />} />
           <Route path='/login' element={<Login />} />
           <Route path='/users' element={<List />} />
           <Route path='/new' element={<New />} />
           <Route path='/new/:personId' element={<SinglePage />} />
-
         </Routes>
-
       </BrowserRouter>
     </div>
   )
